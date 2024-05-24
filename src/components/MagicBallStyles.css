@@ -1,0 +1,333 @@
+body,
+html {
+    margin: 0;
+    animation: color 1s infinite;
+    background: linear-gradient(122deg,
+    rgba(172, 197, 227, 1) 0%,
+    rgba(227, 231, 243, 1) 51%,
+    rgb(187, 202, 236) 80%,
+    rgba(145, 163, 209, 1) 99%) no-repeat center center fixed;
+}
+
+.block {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 100vh;
+}
+
+.maincontainer {
+    background-color: navy;
+    border: solid 2px navy;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 400px;
+    width: 500px;
+    height: 500px;
+}
+
+
+.my_h3 {
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.magicBall_V1 {
+    background: radial-gradient(circle at 32% 31%, rgba(220, 220, 220, 1) 4%, rgba(100, 100, 100, 1) 19%, rgba(0, 0, 0, 1) 42%, rgba(0, 0, 0, 1) 100%);
+    /*background: radial-gradient(circle at 32% 31%, rgba(180, 180, 180, 1) 0%, rgba(100, 100, 100, 1) 16%, rgba(0, 0, 0, 1) 42%, rgba(0, 0, 0, 1) 100%);
+     background-color: navy; */
+    -moz-border-radius: 370px;
+    -webkit-border-radius: 370px;
+    border-radius: 370px;
+    width: 420px;
+    height: 420px;
+    z-index: 1;
+}
+
+.magicBall_V2 {
+    background-color: black;
+    border-bottom: solid 3px silver;
+    border-right: solid 3px silver;
+    -moz-border-radius: 105px;
+    -webkit-border-radius: 105px;
+    border-radius: 105px;
+    width: 195px;
+    height: 195px;
+    z-index: 2;
+    margin: 27% auto auto auto;
+}
+
+.triangle-down_V1 {
+    position: relative;
+    top: 57px;
+    left: 21px;
+    width: 157px;
+    height: 120px;
+    background: #1c3f94;
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.triangle-down_V2 {
+    position: relative;
+    top: -59px;
+    left: 28.5px;
+    width: 142px;
+    height: 109px;
+    background: radial-gradient(circle at 52% 34%, rgba(0, 6, 200, 1) 1%, rgba(0, 0, 0, 1) 37%, rgba(0, 0, 0, 1) 98%, rgba(128, 128, 128, 1) 100%);
+    clip-path: polygon(0% 0%, 100% 0%, 50% 100%);
+}
+
+.triangle-down_V2:hover {
+    background: radial-gradient(circle at 52% 34%, rgba(0, 6, 200, 1) 1%, rgba(0, 0, 0, 1) 76%, rgba(0, 0, 0, 1) 98%, rgba(128, 128, 128, 1) 100%);
+    cursor: pointer;
+}
+
+#magicSp {
+    text-align: center;
+    pointer-events: none;
+    color: white;
+    position: relative;
+    top: -140px;
+    left: 63px;
+    font-size: 14px;
+}
+
+.block_V1 {
+    width: 420px;
+    height: 590px;
+    margin: 0px auto 0px auto;
+}
+
+.magicBall_V2n {
+    background-color: black;
+    border-bottom: solid 3px silver;
+    border-right: solid 3px silver;
+    -moz-border-radius: 105px;
+    -webkit-border-radius: 105px;
+    border-radius: 105px;
+    width: 195px;
+    height: 195px;
+    z-index: 2;
+    position: relative;
+    top: 110px;
+    left: 110px;
+}
+
+#div_pred {
+    text-align: center;
+    border-radius: 10px;
+    border: solid 2px #1c3f94;
+    width: 365px;
+    height: 120px;
+    background-color: rgba(87, 154, 255, 0.336);
+    margin: 0px auto 0px auto;
+}
+
+#p1 {
+    text-align: center;
+    margin-top: 2px;
+    user-select: none;
+    padding-left: 1px;
+    padding-right: 0.5px;
+    font-size: 16px;
+}
+
+#p2 {
+    white-space: pre-line;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+
+.mt{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none;   /* Chrome/Safari/Opera */
+    -khtml-user-select: none;    /* Konqueror */
+    -moz-user-select: none;      /* Firefox */
+    -ms-user-select: none;       /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+
+
+
+/* background-color: #042940; */
+
+
+
+nav {
+
+    overflow: hidden;
+    /*margin: -8px;*/
+    padding-top: 15px;
+    /* border: solid 1px green; */
+}
+
+a {
+    background-color: #042940c0;
+    /* border: solid 1px red; */
+    margin-left: 20px;
+    float: left;
+    color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+    padding: 8px 13px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    background-color: #0089c2;
+    color: white;
+}
+
+.active {
+    background-color: #0089c2;
+    color: white;
+}
+
+.div_ifo {
+    width: max-content;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.div_ifo h3 {
+    float: left;
+    margin: 5px 0px 5px 0px;
+}
+
+.div_ifo span {
+    font-weight: normal;
+}
+
+.leftimg {
+    float: left;
+    margin: 7px 7px 7px 0;
+}
+
+.img1 {
+    border-radius: 5px;
+}
+
+.p_n {
+    font-size: 20px;
+}
+
+.div1 {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.sp1 {
+    font-weight: bold;
+}
+
+.h1 {
+    text-align: center;
+}
+
+.h1v {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.img2 {
+    border-radius: 8px;
+    border: solid 2px navy;
+    box-shadow: 5px 5px 5px rgb(0, 89, 255);
+}
+
+.div3 {
+    height: max-content;
+    width: 320px;
+    display: block;
+    float: left;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.418);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.div3n {
+    height: max-content;
+    width: 470px;
+    display: block;
+    float: left;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.418);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.div3n1 {
+    height: max-content;
+
+    display: block;
+    float: left;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.418);
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.h4m {
+    margin-top: -10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.h3m {
+    margin-top: -10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.div_sh_info {
+    border: solid 2px rgb(1, 119, 216);
+    width: 300px;
+    height: max-content;
+    border-radius: 8px;
+    background-color: rgba(87, 154, 255, 0.336);
+}
+
+/* * {
+    border: solid 1px red;
+} */
+
+.dv {
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.dv1 {
+    width: 35%;
+    overflow: hidden;
+    /* float: left; */
+}
+
+.dv1v {
+    overflow: hidden;
+    width: 52%;
+    /* float: right; */
+}
+
+.fr {
+    float: right;
+}
+
+.fl {
+    float: left;
+}
+
+.pad {
+    padding: 0px;
+}
